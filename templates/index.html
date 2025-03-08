@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Battle</title>
+    <script defer src="static/script.js"></script>
+</head>
+<body>
+    <h1>Meme Battle Arena</h1>
+
+    <h2>Login</h2>
+    <input type="email" id="login-email" placeholder="Email">
+    <input type="password" id="login-password" placeholder="Password">
+    <button onclick="loginUser()">Login</button>
+
+    <h2>Add a Meme</h2>
+    <input type="text" id="meme-title" placeholder="Title">
+    <input type="text" id="meme-url" placeholder="Image URL">
+    <input type="text" id="meme-description" placeholder="Description">
+    <button onclick="addMeme()">Add Meme</button>
+
+    <h2>All Memes</h2>
+    <div id="meme-list"></div>
+</body>
+</html>
